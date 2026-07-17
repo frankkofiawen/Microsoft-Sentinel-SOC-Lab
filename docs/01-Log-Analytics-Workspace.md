@@ -33,7 +33,7 @@ The Log Analytics Workspace was successfully deployed and is ready to receive lo
 
 ## Screenshot
 
-*Add a screenshot of the deployment or workspace overview here.*
+![Log Analytics Workspace Deployment](../images/01-log-analytics-deployment.png)
 
 ---
 
@@ -49,3 +49,9 @@ The Log Analytics Workspace was successfully deployed and is ready to receive lo
 ## Lessons Learned
 
 A Log Analytics Workspace is the foundation of Microsoft Sentinel. It acts as the repository where logs are stored and queried using Kusto Query Language (KQL).
+
+---
+
+## Why this Matters in a SOC
+
+The Log Analytics Workspace is the central repository for security telemetry in Microsoft Sentinel. SOC analysts use it to collect, store, search, and investigate security events from endpoints, cloud resources, and other connected data sources. It provides the data required for threat hunting, incident investigations, analytics rules, and dashboard visualizations.
