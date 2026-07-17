@@ -1,0 +1,4 @@
+Event
+| where EventID == 4625
+| where Computer == "SOC-VM-01"
+| sort by TimeGenerated desc
