@@ -1,0 +1,3 @@
+Heartbeat
+| where Computer == "SOC-VM-01"
+| sort by TimeGenerated desc
